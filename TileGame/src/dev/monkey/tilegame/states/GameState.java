@@ -14,8 +14,8 @@ public class GameState extends State {
 	
 	public GameState(Game game) {
 		super(game);
-		player = new Player(game, 34, 3);
-		world = new World("res/worlds/world1.lvl");
+		player = new Player(game, 33, 33);
+		world = new World("res/worlds/tutorial.lvl");
 	}
 	
 	@Override
